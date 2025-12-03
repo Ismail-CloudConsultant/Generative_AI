@@ -3,7 +3,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 from huggingface_hub import login
-login("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")
+login("PASTE_cODE_HERE")
 
 llm = HuggingFaceEndpoint(
     repo_id="google/gemma-2-2b-it",

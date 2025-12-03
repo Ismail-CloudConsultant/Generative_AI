@@ -5,7 +5,7 @@ from pydantic import BaseModel,Field
 from typing import Optional,Literal
 
 from huggingface_hub import login
-login("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")
+login("PASTE_cODE_HERE")
 
 llm = HuggingFaceEndpoint(
     repo_id="google/gemma-2-2b-it",
