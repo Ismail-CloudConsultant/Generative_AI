@@ -1,3 +1,19 @@
+
+# RunnableLambda = Do Something AND RunnableBranch = Choose Something
+
+# RunnableLambda
+# transform input
+# validate input
+# add fields
+# modify text
+# compute something
+# eturn something
+
+
+#ask user a review , if the review is less than 3 words,dont accept and ask again
+# if review is more than 50 words ask again
+# if everything is well and good , then respond
+
 from langchain_core.runnables import RunnableSequence, RunnableParallel,RunnableLambda, RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from langchain_openai import ChatOpenAI
